@@ -19,6 +19,6 @@ class Reponses extends Model
 
     public function question()
     {
-        return $this->belongsTo(Questions::class, 'id_question');
+        return $this->belongsTo(Question::class, 'id_question');
     }
 }
